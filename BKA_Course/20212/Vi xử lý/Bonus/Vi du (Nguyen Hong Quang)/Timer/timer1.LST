@@ -1,0 +1,52 @@
+A51 MACRO ASSEMBLER  TIMER1                                                               11/10/2009 07:16:51 PAGE     1
+
+
+MACRO ASSEMBLER A51 V7.10
+OBJECT MODULE PLACED IN timer1.OBJ
+ASSEMBLER INVOKED BY: C:\Keil\C51\BIN\A51.EXE timer1.asm SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1             ORG 0 ; reset address
+0000 803E              2             SJMP START ; short jump over reserved area
+0040                   3             ORG 40H ; program start address at 0040H
+                       4     
+0040 758901            5             START: MOV TMOD,#01H ; put Timer 0 into mode 1
+0043 D297              6     AGAIN:  SETB P1.7 ; pin 7 port 1 to logic 1 (5 volts)
+0045 114D              7             ACALL DELAY ; go to 0.5ms delay
+0047 C297              8             CLR P1.7 ; pin 7 port 1 to logic 0 (0 volts)
+0049 114D              9             ACALL DELAY ; go to 0.5ms delay
+004B 80F6             10             SJMP AGAIN ; repeat
+                      11     
+004D 758CFC           12     DELAY:  MOV TH0,#0FCH ; high byte base number into TH0
+0050 758A65           13             MOV TL0,#65H ; low byte base number into TL0
+0053 D28C             14             SETB TR0 ; turn Timer 0 on
+0055 308DFD           15             FLAG: JNB TF0,FLAG ; repeat until rollover when TF0 ¼ 1
+0058 C28C             16             CLR TR0 ; turn Timer 0 off
+005A C28D             17             CLR TF0 ; clear TF0 back to 0
+005C 22               18             RET ; return from delay subroutine
+                      19             END
+A51 MACRO ASSEMBLER  TIMER1                                                               11/10/2009 07:16:51 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+AGAIN. . . . . . .  C ADDR   0043H   A   
+DELAY. . . . . . .  C ADDR   004DH   A   
+FLAG . . . . . . .  C ADDR   0055H   A   
+P1 . . . . . . . .  D ADDR   0090H   A   
+START. . . . . . .  C ADDR   0040H   A   
+TF0. . . . . . . .  B ADDR   0088H.5 A   
+TH0. . . . . . . .  D ADDR   008CH   A   
+TL0. . . . . . . .  D ADDR   008AH   A   
+TMOD . . . . . . .  D ADDR   0089H   A   
+TR0. . . . . . . .  B ADDR   0088H.4 A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

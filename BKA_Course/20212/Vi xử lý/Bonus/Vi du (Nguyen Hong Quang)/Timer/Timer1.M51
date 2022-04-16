@@ -1,0 +1,93 @@
+BL51 BANKED LINKER/LOCATER V5.12                                                        11/10/2009  07:25:24  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V5.12, INVOKED BY:
+C:\KEIL\C51\BIN\BL51.EXE timer1.obj, timer2.obj TO Timer1 RAMSIZE (256)
+
+
+INPUT MODULES INCLUDED:
+  timer1.obj (TIMER1)
+  timer2.obj (TIMER2)
+
+
+LINK MAP OF MODULE:  Timer1 (TIMER1)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     005DH     ABSOLUTE     
+* OVERLAP * CODE    0000H     005AH     ABSOLUTE     
+
+
+
+SYMBOL TABLE OF MODULE:  Timer1 (TIMER1)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        TIMER1
+  C:0043H         SYMBOL        AGAIN
+  C:004DH         SYMBOL        DELAY
+  C:0055H         SYMBOL        FLAG
+  D:0090H         SYMBOL        P1
+  C:0040H         SYMBOL        START
+  B:0088H.5       SYMBOL        TF0
+  D:008CH         SYMBOL        TH0
+  D:008AH         SYMBOL        TL0
+  D:0089H         SYMBOL        TMOD
+  B:0088H.4       SYMBOL        TR0
+  C:0000H         LINE#         2
+  C:0040H         LINE#         5
+  C:0043H         LINE#         6
+  C:0045H         LINE#         7
+  C:0047H         LINE#         8
+  C:0049H         LINE#         9
+  C:004BH         LINE#         10
+  C:004DH         LINE#         12
+  C:0050H         LINE#         13
+  C:0053H         LINE#         14
+  C:0055H         LINE#         15
+  C:0058H         LINE#         16
+  C:005AH         LINE#         17
+  C:005CH         LINE#         18
+  -------         ENDMOD        TIMER1
+
+  -------         MODULE        TIMER2
+  C:0046H         SYMBOL        AGAIN
+BL51 BANKED LINKER/LOCATER V5.12                                                      11/10/2009  07:25:24  PAGE 2
+
+
+  C:0050H         SYMBOL        DELAY
+  C:0052H         SYMBOL        FLAG
+  D:0090H         SYMBOL        P1
+  C:0040H         SYMBOL        START
+  B:0088H.5       SYMBOL        TF0
+  D:008CH         SYMBOL        TH0
+  D:0089H         SYMBOL        TMOD
+  B:0088H.4       SYMBOL        TR0
+  C:0000H         LINE#         2
+  C:0040H         LINE#         5
+  C:0043H         LINE#         6
+  C:0046H         LINE#         7
+  C:0048H         LINE#         9
+  C:004AH         LINE#         10
+  C:004CH         LINE#         11
+  C:004EH         LINE#         12
+  C:0050H         LINE#         14
+  C:0052H         LINE#         15
+  C:0055H         LINE#         16
+  C:0057H         LINE#         17
+  C:0059H         LINE#         18
+  -------         ENDMOD        TIMER2
+
+*** WARNING L5: CODE SPACE MEMORY OVERLAP
+    FROM:    0000H
+    TO:      005CH
+
+Program Size: data=8.0 xdata=0 code=183
+LINK/LOCATE RUN COMPLETE.  1 WARNING(S),  0 ERROR(S)

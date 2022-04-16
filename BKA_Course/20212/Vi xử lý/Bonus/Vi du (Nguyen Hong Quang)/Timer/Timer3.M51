@@ -1,0 +1,55 @@
+BL51 BANKED LINKER/LOCATER V5.12                                                        11/20/2009  00:50:12  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V5.12, INVOKED BY:
+C:\KEIL\C51\BIN\BL51.EXE Timer3.obj TO Timer3 RAMSIZE (256)
+
+
+INPUT MODULES INCLUDED:
+  Timer3.obj (TIMER3)
+
+
+LINK MAP OF MODULE:  Timer3 (TIMER3)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0056H     ABSOLUTE     
+
+
+
+SYMBOL TABLE OF MODULE:  Timer3 (TIMER3)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        TIMER3
+  C:004EH         SYMBOL        AGAIN
+  B:00A8H.7       SYMBOL        EA
+  N:00A8H         SYMBOL        IEN1
+  D:0090H         SYMBOL        P1
+  N:00CBH         SYMBOL        RCAP2H
+  N:00CAH         SYMBOL        RCAP2L
+  C:0040H         SYMBOL        START
+  N:00C8H         SYMBOL        T2CON
+  C:0050H         SYMBOL        TASK
+  C:0000H         LINE#         7
+  C:002BH         LINE#         9
+  C:0040H         LINE#         11
+  C:0043H         LINE#         12
+  C:0046H         LINE#         13
+  C:0048H         LINE#         14
+  C:004BH         LINE#         15
+  C:004EH         LINE#         16
+  C:0050H         LINE#         17
+  C:0052H         LINE#         18
+  C:0055H         LINE#         19
+  -------         ENDMOD        TIMER3
+
+Program Size: data=8.0 xdata=0 code=86
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

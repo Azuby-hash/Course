@@ -1,0 +1,77 @@
+A51 MACRO ASSEMBLER  T31                                                                  10/10/2008 04:07:01 PAGE     1
+
+
+MACRO ASSEMBLER A51 V7.10
+OBJECT MODULE PLACED IN t31.OBJ
+ASSEMBLER INVOKED BY: C:\Keil\C51\BIN\A51.EXE t31.asm SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+                       1     
+0000                   2             ORG 0           ; reset address
+0000 803E              3             SJMP START      ; jump over reserved area
+0040                   4             ORG 40H         ; program start address
+                       5             
+0040 759842            6     START:  MOV SCON,#42H ; serial mode 1, TI set
+0043 758920            7             MOV TMOD,#20H ; timer 1 mode 2
+0046 758DFA            8             MOV TH1,#0FAH ; baudrate 9600
+0049 758BFA            9             MOV TL1,#0FAH ; TL1 also initially set
+004C D28E             10             SETB TR1 ; turn timer 1 on
+                      11     
+004E 90006E           12     TEXT: MOV DPTR,#MSG1 ; Data Pointer to message address
+                      13     
+0051 7400             14     NEXTCH: MOV A,#0 ; zero the previous character
+0053 93               15             MOVC A,@A + DPTR ; character into A
+0054 B4000A           16             CJNE A,#0,TRXCH ; checking end of message, ¼ 7EH
+0057 740D             17             MOV A,#0DH ; carriage return ¼ 0DH
+0059 1166             18             ACALL SEND ; call up send routine
+005B 740A             19             MOV A,#0AH ; line feed ¼ 0AH
+005D 1166             20             ACALL SEND ; call up send routine
+005F 80ED             21             SJMP TEXT ; repeat line of text
+                      22     
+0061 1166             23     TRXCH: ACALL SEND ; send text character
+0063 A3               24             INC DPTR ; increment data pointer
+0064 80EB             25             SJMP NEXTCH ; prepare to send next character
+                      26     
+0066 3099FD           27     SEND:   JNB TI,SEND ; check SBUF clear to send
+0069 C299             28             CLR TI ; clear TI
+006B F599             29             MOV SBUF,A ; send contents of A
+006D 22               30             RET ; return from subroutine
+                      31     
+006E 54686973         32     MSG1:   DB  "This is test for serial windows",0 ; text message
+0072 20697320                
+0076 74657374                
+007A 20666F72                
+007E 20736572                
+0082 69616C20                
+0086 77696E64                
+008A 6F777300                
+                      33     
+                      34             END ; no more assembly language
+A51 MACRO ASSEMBLER  T31                                                                  10/10/2008 04:07:01 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+MSG1 . . . . . . .  C ADDR   006EH   A   
+NEXTCH . . . . . .  C ADDR   0051H   A   
+SBUF . . . . . . .  D ADDR   0099H   A   
+SCON . . . . . . .  D ADDR   0098H   A   
+SEND . . . . . . .  C ADDR   0066H   A   
+START. . . . . . .  C ADDR   0040H   A   
+TEXT . . . . . . .  C ADDR   004EH   A   
+TH1. . . . . . . .  D ADDR   008DH   A   
+TI . . . . . . . .  B ADDR   0098H.1 A   
+TL1. . . . . . . .  D ADDR   008BH   A   
+TMOD . . . . . . .  D ADDR   0089H   A   
+TR1. . . . . . . .  B ADDR   0088H.6 A   
+TRXCH. . . . . . .  C ADDR   0061H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

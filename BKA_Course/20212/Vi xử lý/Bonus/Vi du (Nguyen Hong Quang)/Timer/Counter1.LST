@@ -1,0 +1,45 @@
+A51 MACRO ASSEMBLER  COUNTER1                                                             11/11/2009 02:25:46 PAGE     1
+
+
+MACRO ASSEMBLER A51 V7.10
+OBJECT MODULE PLACED IN Counter1.OBJ
+ASSEMBLER INVOKED BY: C:\Keil\C51\BIN\A51.EXE Counter1.asm SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1             ORG 0h
+                       2     
+0000 758960            3             MOV     TMOD, #01100000B
+0003 758D00            4             MOV     TH1, #0
+0006 D2B5              5             SETB    P3.5    
+0008 D28E              6     AGAIN:  SETB    TR1
+000A E58B              7     BACK:   MOV     A, TL1
+000C F5A0              8             MOV     P2, A
+000E 308FF9            9             JNB     TF1, BACK
+0011 C28E             10             CLR     TR1
+0013 C28F             11             CLR     TF1
+0015 80F1             12             SJMP    AGAIN
+                      13             END
+A51 MACRO ASSEMBLER  COUNTER1                                                             11/11/2009 02:25:46 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+AGAIN. . . . . . .  C ADDR   0008H   A   
+BACK . . . . . . .  C ADDR   000AH   A   
+P2 . . . . . . . .  D ADDR   00A0H   A   
+P3 . . . . . . . .  D ADDR   00B0H   A   
+TF1. . . . . . . .  B ADDR   0088H.7 A   
+TH1. . . . . . . .  D ADDR   008DH   A   
+TL1. . . . . . . .  D ADDR   008BH   A   
+TMOD . . . . . . .  D ADDR   0089H   A   
+TR1. . . . . . . .  B ADDR   0088H.6 A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

@@ -1,0 +1,54 @@
+BL51 BANKED LINKER/LOCATER V6.22                                                        08/12/2011  13:23:01  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
+C:\KEIL\C51\BIN\BL51.EXE Counter1.obj TO counter1 RAMSIZE (256)
+
+
+INPUT MODULES INCLUDED:
+  Counter1.obj (COUNTER1)
+
+
+LINK MAP OF MODULE:  counter1 (COUNTER1)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0017H     ABSOLUTE     
+
+
+
+SYMBOL TABLE OF MODULE:  counter1 (COUNTER1)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        COUNTER1
+  C:0008H         SYMBOL        AGAIN
+  C:000AH         SYMBOL        BACK
+  D:00A0H         SYMBOL        P2
+  D:00B0H         SYMBOL        P3
+  B:0088H.7       SYMBOL        TF1
+  D:008DH         SYMBOL        TH1
+  D:008BH         SYMBOL        TL1
+  D:0089H         SYMBOL        TMOD
+  B:0088H.6       SYMBOL        TR1
+  C:0000H         LINE#         3
+  C:0003H         LINE#         4
+  C:0006H         LINE#         5
+  C:0008H         LINE#         6
+  C:000AH         LINE#         7
+  C:000CH         LINE#         8
+  C:000EH         LINE#         9
+  C:0011H         LINE#         10
+  C:0013H         LINE#         11
+  C:0015H         LINE#         12
+  -------         ENDMOD        COUNTER1
+
+Program Size: data=8.0 xdata=0 code=23
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

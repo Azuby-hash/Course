@@ -1,0 +1,24 @@
+<html>
+<body>
+<pre>
+<h1>µVision2 Build Log</h1>
+<h2>Project:</h2>
+C:\Documents and Settings\quang.QUANGNOTEBOOK.000\Desktop\k51\Timer\Timer3.uv2
+Project File Date:  11/10/2009
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Timer3.asm...
+linking...
+Program Size: data=8.0 xdata=0 code=86
+"Timer3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Timer3.asm...
+linking...
+Program Size: data=8.0 xdata=0 code=86
+"Timer3" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Timer3.asm...
+linking...
+Program Size: data=8.0 xdata=0 code=86
+"Timer3" - 0 Error(s), 0 Warning(s).

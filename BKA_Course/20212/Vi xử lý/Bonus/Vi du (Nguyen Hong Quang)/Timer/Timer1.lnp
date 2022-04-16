@@ -1,0 +1,4 @@
+"timer1.obj",
+"timer2.obj" 
+TO "Timer1" 
+RAMSIZE(256) 
