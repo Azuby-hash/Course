@@ -1,0 +1,59 @@
+BL51 BANKED LINKER/LOCATER V5.12                                                        10/10/2008  04:09:24  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V5.12, INVOKED BY:
+C:\KEIL\C51\BIN\BL51.EXE t5.obj TO t5 RAMSIZE (256)
+
+
+INPUT MODULES INCLUDED:
+  t5.obj (T5)
+
+
+LINK MAP OF MODULE:  t5 (T5)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     005AH     ABSOLUTE     
+
+
+
+SYMBOL TABLE OF MODULE:  t5 (T5)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        T5
+  D:00A8H         SYMBOL        IE
+  D:0090H         SYMBOL        P1
+  B:0098H.0       SYMBOL        RI
+  C:0050H         SYMBOL        RXBUF
+  D:0099H         SYMBOL        SBUF
+  D:0098H         SYMBOL        SCON
+  C:0040H         SYMBOL        START
+  C:004EH         SYMBOL        STAY
+  D:008DH         SYMBOL        TH1
+  D:0089H         SYMBOL        TMOD
+  B:0088H.6       SYMBOL        TR1
+  C:0000H         LINE#         3
+  C:0023H         LINE#         5
+  C:0040H         LINE#         8
+  C:0043H         LINE#         9
+  C:0046H         LINE#         10
+  C:0049H         LINE#         11
+  C:004CH         LINE#         12
+  C:004EH         LINE#         13
+  C:0050H         LINE#         15
+  C:0053H         LINE#         16
+  C:0055H         LINE#         17
+  C:0057H         LINE#         18
+  C:0059H         LINE#         19
+  -------         ENDMOD        T5
+
+Program Size: data=8.0 xdata=0 code=90
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

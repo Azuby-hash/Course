@@ -1,0 +1,61 @@
+A51 MACRO ASSEMBLER  T3                                                                   11/27/2009 00:26:17 PAGE     1
+
+
+MACRO ASSEMBLER A51 V7.10
+OBJECT MODULE PLACED IN t3.OBJ
+ASSEMBLER INVOKED BY: C:\Keil\C51\BIN\A51.EXE t3.asm SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1             org     00h
+0000 758920            2             mov     tmod, #20h
+0003 758DFD            3             mov     th1, #0fdh
+                       4             
+0006 759850            5             mov     scon, #50h
+0009 758840            6             mov     tcon, #40h
+                       7             
+000C 7860              8             mov     r0, #60h
+                       9     
+000E 1119             10     lup:    acall   getch
+0010 F6               11             mov     @r0,a
+0011 08               12             inc     r0
+0012 C3               13             clr     c
+0013 9420             14             subb    a,#32
+0015 1121             15             acall   putch
+0017 80F5             16             sjmp    lup
+                      17     
+0019 3098FD           18     getch:  jnb     ri,getch
+001C E599             19             mov     a,sbuf
+001E C298             20             clr     ri
+0020 22               21             ret
+                      22     
+0021 C299             23     putch:  clr     ti
+0023 F599             24             mov     sbuf,a
+0025 3099FD           25     gone:   jnb     ti, gone
+0028 22               26             ret
+                      27             end     
+A51 MACRO ASSEMBLER  T3                                                                   11/27/2009 00:26:17 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+GETCH. . . . . . .  C ADDR   0019H   A   
+GONE . . . . . . .  C ADDR   0025H   A   
+LUP. . . . . . . .  C ADDR   000EH   A   
+PUTCH. . . . . . .  C ADDR   0021H   A   
+RI . . . . . . . .  B ADDR   0098H.0 A   
+SBUF . . . . . . .  D ADDR   0099H   A   
+SCON . . . . . . .  D ADDR   0098H   A   
+TCON . . . . . . .  D ADDR   0088H   A   
+TH1. . . . . . . .  D ADDR   008DH   A   
+TI . . . . . . . .  B ADDR   0098H.1 A   
+TMOD . . . . . . .  D ADDR   0089H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

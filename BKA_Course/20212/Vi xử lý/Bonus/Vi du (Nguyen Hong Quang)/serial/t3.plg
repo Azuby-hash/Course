@@ -1,0 +1,13 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\Bo mon TDH\K51 Lecture\serial\t3.uvproj
+Project File Date:  <unknown>
+
+<h2>Output:</h2>
+Build target 'Target 1'
+linking...
+Program Size: data=8.0 xdata=0 code=41
+"t3" - 0 Error(s), 0 Warning(s).

@@ -1,0 +1,54 @@
+A51 MACRO ASSEMBLER  T5                                                                   10/10/2008 04:09:23 PAGE     1
+
+
+MACRO ASSEMBLER A51 V7.10
+OBJECT MODULE PLACED IN t5.OBJ
+ASSEMBLER INVOKED BY: C:\Keil\C51\BIN\A51.EXE t5.asm SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+                       1      
+0000                   2             ORG 0           ; reset address
+0000 803E              3             SJMP START      ; jump over reserved area
+0023                   4             ORG 23H         ; UART interrupt address
+0023 802B              5             SJMP RXBUF      ; jump to interrupt routine
+0040                   6             ORG 40H ; program start address
+                       7     
+0040 759850            8     START:  MOV SCON,#50H ; mode 1, REN enabled
+0043 758DFA            9             MOV TH1,#0FAH ; 9600 baud
+0046 758920           10             MOV TMOD,#20H ; timer 1 mode 2
+0049 75A890           11             MOV IE,#90H ; UART interrupt enabled
+004C D28E             12             SETB TR1 ; turn timer 1 on
+004E 80FE             13     STAY:   SJMP STAY ; stay here, wait for interrupt
+                      14     
+0050 3098FD           15     RXBUF:  JNB RI,RXBUF ; check for received byte
+0053 C298             16             CLR RI ; clear RI
+0055 E599             17             MOV A,SBUF ; move character from buffer to A
+0057 F590             18             MOV P1,A ; hex value onto port 1
+0059 32               19             RETI ; return from interrupt
+                      20             END ; no more assembly language
+A51 MACRO ASSEMBLER  T5                                                                   10/10/2008 04:09:23 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+IE . . . . . . . .  D ADDR   00A8H   A   
+P1 . . . . . . . .  D ADDR   0090H   A   
+RI . . . . . . . .  B ADDR   0098H.0 A   
+RXBUF. . . . . . .  C ADDR   0050H   A   
+SBUF . . . . . . .  D ADDR   0099H   A   
+SCON . . . . . . .  D ADDR   0098H   A   
+START. . . . . . .  C ADDR   0040H   A   
+STAY . . . . . . .  C ADDR   004EH   A   
+TH1. . . . . . . .  D ADDR   008DH   A   
+TMOD . . . . . . .  D ADDR   0089H   A   
+TR1. . . . . . . .  B ADDR   0088H.6 A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

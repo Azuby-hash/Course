@@ -1,0 +1,43 @@
+A51 MACRO ASSEMBLER  PP                                                                   09/23/2009 02:13:04 PAGE     1
+
+
+MACRO ASSEMBLER A51 V7.10
+OBJECT MODULE PLACED IN pp.OBJ
+ASSEMBLER INVOKED BY: C:\Keil\C51\BIN\A51.EXE pp.asm SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1     Begin:
+0000 7400              2                     Mov A,# 0               ; (A) = 0
+0002 F590              3                     MOV P1,A                ; G?i ra c?ng P1
+0004 110E              4                     Call    wait            ; G?i chuong trình t?o tr? 
+0006 74FF              5                     Mov A,# 255     ; (A) =255
+0008 F590              6                     Mov P1,A                ; G?i  ra c?ng P1
+000A 110E              7                     Call    Wait            ; G?i chuong trình t?o tr?
+000C 80F2              8                     Jmp   Begin             ; Nh?y tr? l?i Begin
+000E                   9     Wait:
+000E 7FFF             10                     Mov R7, #255    ; (R7)=255 - S? d?m vòng ngoài 
+0010 7EFF             11             Schl1:  Mov R6, #255    ;(R6)= 255- S? d?m vòng trong
+0012 DEFE             12             Schl2:  Djnz R6, Schl2  ;N?u (R6) ? 0 thi quay l?i Schl 2
+0014 DFFA             13                     Djnz R7, Schl1  ; N?u (R7) ? 0 thi quay l?i Schl 1
+0016 22               14                     Ret                     
+                      15     End
+A51 MACRO ASSEMBLER  PP                                                                   09/23/2009 02:13:04 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+BEGIN. . . . . . .  C ADDR   0000H   A   
+P1 . . . . . . . .  D ADDR   0090H   A   
+SCHL1. . . . . . .  C ADDR   0010H   A   
+SCHL2. . . . . . .  C ADDR   0012H   A   
+WAIT . . . . . . .  C ADDR   000EH   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

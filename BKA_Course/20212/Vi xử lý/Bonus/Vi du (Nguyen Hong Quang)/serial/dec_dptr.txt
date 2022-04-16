@@ -1,0 +1,40 @@
+DEC_DPTR:
+    XCH     A,DPL               		;Exchange A for DPL
+    DEC     A                  		;Decrement A (which is DPL)
+    CJNE    A,#0FFh,_dec_dptr2  	;If A (DPL) is not #0FFh, continue normally
+    DEC     DPH               		  ;If A=FFh, we need to decrement DPH
+_dec_dptr2:
+    XCH     A,DPL             		  ;Exchange A for DPL (thus saving DPL and restoring A)
+    RET
+;Return Ascii Equivalent  of ACC 0..3
+
+
+Bin2Hex:
+;       PUSH	DPH
+;       PUSH	DPL
+	MOV	DPTR, # AsciiTab
+	ANL	A,# 0Fh
+	MOVC	A,@A+DPTR	
+;	POP	DPL	
+;	POP     DPH
+	RET
+	        	  	
+AsciiTab:
+	DB     '0'
+	DB     '1'
+	DB     '2'
+	DB     '3'   	
+	DB     '4'
+	DB     '5'
+	DB     '6'
+	DB     '7'   	
+	DB     '8'
+	DB     '9'
+	DB     'A'
+	DB     'B'   	
+	DB     'C'
+	DB     'D'
+	DB     'E'
+	DB     'F'   	
+
+END

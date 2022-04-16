@@ -1,0 +1,53 @@
+BL51 BANKED LINKER/LOCATER V5.12                                                        10/10/2008  04:02:59  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V5.12, INVOKED BY:
+C:\KEIL\C51\BIN\BL51.EXE t4.obj TO t4 RAMSIZE (256)
+
+
+INPUT MODULES INCLUDED:
+  t4.obj (T4)
+
+
+LINK MAP OF MODULE:  t4 (T4)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0056H     ABSOLUTE     
+
+
+
+SYMBOL TABLE OF MODULE:  t4 (T4)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        T4
+  C:004CH         SYMBOL        AGAIN
+  C:004FH         SYMBOL        HERE
+  N:00CBH         SYMBOL        RCAP2H
+  N:00CAH         SYMBOL        RCAP2L
+  D:0099H         SYMBOL        SBUF
+  D:0098H         SYMBOL        SCON
+  C:0040H         SYMBOL        START
+  N:00C8H         SYMBOL        T2CON
+  B:0098H.1       SYMBOL        TI
+  C:0000H         LINE#         6
+  C:0040H         LINE#         9
+  C:0043H         LINE#         11
+  C:0046H         LINE#         12
+  C:0049H         LINE#         14
+  C:004CH         LINE#         17
+  C:004FH         LINE#         19
+  C:0052H         LINE#         20
+  C:0054H         LINE#         21
+  -------         ENDMOD        T4
+
+Program Size: data=8.0 xdata=0 code=86
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

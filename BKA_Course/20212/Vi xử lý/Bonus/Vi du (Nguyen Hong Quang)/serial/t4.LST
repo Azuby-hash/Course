@@ -1,0 +1,54 @@
+A51 MACRO ASSEMBLER  T4                                                                   10/10/2008 04:02:59 PAGE     1
+
+
+MACRO ASSEMBLER A51 V7.10
+OBJECT MODULE PLACED IN t4.OBJ
+ASSEMBLER INVOKED BY: C:\Keil\C51\BIN\A51.EXE t4.asm SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+  00CA                 1             RCAP2L EQU 0CAH ; sfr address
+  00CB                 2             RCAP2H EQU 0CBH ; sfr address
+  00C8                 3             T2CON EQU 0C8H
+                       4      
+0000                   5             ORG 0 ; reset address
+0000 803E              6             SJMP START ; jump over reserved area
+0040                   7             ORG 40H ; program start address
+                       8     
+0040 759842            9             START: MOV SCON,#42H ; serial mode 1, TI set
+                      10     
+0043 75CBFF           11             MOV RCAP2H,#0FFH ; baudrate 9600
+0046 75CAB8           12             MOV RCAP2L,#0B8H ;
+                      13     
+0049 43C834           14             ORL T2CON,#34H ; turn Timer 2 on
+                      15     
+004C                  16      AGAIN: 
+004C 759941           17             MOV SBUF, #'A'; ASCII of A into S0BUF
+                      18     
+004F 3099FD           19      HERE: JNB TI,HERE ; stay here till TI set
+0052 C299             20             CLR TI ; clear TI
+0054 80F6             21             SJMP AGAIN ; repeat
+                      22             END ; end of assembly language
+A51 MACRO ASSEMBLER  T4                                                                   10/10/2008 04:02:59 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+AGAIN. . . . . . .  C ADDR   004CH   A   
+HERE . . . . . . .  C ADDR   004FH   A   
+RCAP2H . . . . . .  N NUMB   00CBH   A   
+RCAP2L . . . . . .  N NUMB   00CAH   A   
+SBUF . . . . . . .  D ADDR   0099H   A   
+SCON . . . . . . .  D ADDR   0098H   A   
+START. . . . . . .  C ADDR   0040H   A   
+T2CON. . . . . . .  N NUMB   00C8H   A   
+TI . . . . . . . .  B ADDR   0098H.1 A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)
