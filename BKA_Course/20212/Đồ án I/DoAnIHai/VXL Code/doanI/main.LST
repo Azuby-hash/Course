@@ -1,0 +1,142 @@
+C51 COMPILER V9.60.0.0   MAIN                                                              08/12/2022 14:46:56 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN main.OBJ
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE main.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND TABS(2)
+
+line level    source
+
+   1          #include "main.h"
+   2          #include "..\Lib\LCD4.h"
+   3          #include "..\Lib\Delay.h"
+   4          #include "..\Lib\UartMode1.h"
+   5          
+   6          // Khai bao k�t noi HC-SRF04
+   7          sbit SRF_TRIG = P2^2;
+   8          sbit SRF_ECHO = P2^3;
+   9          sbit Am = P1^0;
+  10          sbit Duong = P1^1;
+  11          
+  12          unsigned char setPoint = 50;
+  13          unsigned long int testSetPoint = 50;
+  14          unsigned char setPoints[5];
+  15          unsigned char distance = 0;
+  16          unsigned int time = 0;
+  17          unsigned int i = 0;
+  18          
+  19          void main()
+  20          {
+  21   1        Lcd_Init();
+  22   1        
+  23   1        Lcd_Out(1,1,"Distance:");
+  24   1        Lcd_Out(2,1,"Set Point:");
+  25   1        Lcd_Out(1,15,"cm");
+  26   1        Lcd_Out(2,15,"cm");
+  27   1        
+  28   1        // Timer Distance
+  29   1        TMOD = 0x21;
+  30   1        TH0 = 0x00;
+  31   1        TL0 = 0x00;
+  32   1        TR0 = 0;
+  33   1      
+  34   1        TH1 = 0xFD;       // Toc do baud 9600
+  35   1        TR1 = 1;        // Timer1 bat dau chay
+  36   1        TI = 1;         // San sang gui du lieu
+  37   1        REN = 1;        // Cho phep nhan du lieu
+  38   1        SM0 = 0; SM1 = 1;   // Chon UART mode 1
+  39   1        RI = 0;
+  40   1      
+  41   1        Uart_Write_Text("Enter spacing by XXXcm: ");
+  42   1      
+  43   1        while(1) {
+  44   2      
+  45   2          // Distance
+  46   2          SRF_TRIG = 1;
+  47   2          Delay_ms(15);
+  48   2          SRF_TRIG = 0;
+  49   2          
+  50   2          while(SRF_ECHO == 0);
+  51   2          TR0 = 1;
+  52   2          while(SRF_ECHO == 1);
+  53   2          TR0 = 0;
+  54   2          
+  55   2          time = TH0;
+C51 COMPILER V9.60.0.0   MAIN                                                              08/12/2022 14:46:56 PAGE 2   
+
+  56   2          time <<= 8;
+  57   2          time += TL0;
+  58   2          
+  59   2          // UART
+  60   2          
+  61   2          if(time > 100 && time < 25000) {
+  62   3            distance = time / 58;
+  63   3            Lcd_Chr(1,11,distance / 100 + 0x30);
+  64   3            Lcd_Chr_Cp(distance % 100 / 10 + 0x30);
+  65   3            Lcd_Chr_Cp(distance % 10 + 0x30);
+  66   3      
+  67   3            Lcd_Chr(2,11,setPoint / 100 + 0x30);
+  68   3            Lcd_Chr_Cp(setPoint % 100 / 10 + 0x30);
+  69   3            Lcd_Chr_Cp(setPoint % 10 + 0x30);
+  70   3            
+  71   3            if(RI == 1) {
+  72   4              RI = 0;
+  73   4              setPoints[i] = SBUF - 128;
+  74   4              if(setPoints[i] >= 0x30 && setPoints[i] <= 0x39) {
+  75   5                Uart_Write(setPoints[i]);
+  76   5                i++;
+  77   5              }
+  78   4              if(i == 3) {
+  79   5                testSetPoint = (setPoints[0] - 0x30) * 100 + (setPoints[1] - 0x30) * 10 + (setPoints[2] - 0x30);
+  80   5                i = 0;
+  81   5                Uart_Write_Text("cm ...");
+  82   5                Uart_Write(0x0D);
+  83   5                if(testSetPoint < 255) {
+  84   6                  setPoint = testSetPoint;
+  85   6                } else {
+  86   6                  Uart_Write_Text("Set point invalid!");
+  87   6                  Uart_Write(0x0D);
+  88   6                }
+  89   5                Uart_Write_Text("Enter spacing by XXXcm: ");
+  90   5              }
+  91   4              // Uart_Write(setPoint);
+  92   4            }
+  93   3      
+  94   3            if (distance > setPoint) {
+  95   4              Am = 1;
+  96   4              Duong = 0;
+  97   4            } 
+  98   3            if (distance < setPoint) {
+  99   4              Am = 0;
+ 100   4              Duong = 1;
+ 101   4            } 
+ 102   3            if (distance == setPoint) {
+ 103   4              Am = 0;
+ 104   4              Duong = 0;
+ 105   4            } 
+ 106   3          } else {
+ 107   3            Lcd_Cmd(_LCD_CLEAR);
+ 108   3            Lcd_Out(2,1,"Not in range!");
+ 109   3          }
+ 110   2          
+ 111   2          TH0 = 0x00;
+ 112   2          TL0 = 0x00;
+ 113   2      
+ 114   2        }
+ 115   1      }
+
+
+C51 COMPILER V9.60.0.0   MAIN                                                              08/12/2022 14:46:56 PAGE 3   
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    540    ----
+   CONSTANT SIZE    =     89    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     15    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

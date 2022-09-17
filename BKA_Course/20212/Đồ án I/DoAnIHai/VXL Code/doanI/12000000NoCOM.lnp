@@ -1,0 +1,6 @@
+"main.obj",
+".\LCD4.obj",
+".\Delay.obj",
+".\UartMode1.obj" 
+TO "12000000NoCOM" 
+RAMSIZE(256) 
