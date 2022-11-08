@@ -1,0 +1,15 @@
+semtest.o: ..\Minimal\semtest.c
+semtest.o: C:\Keil\ARM\RV31\Inc\stdlib.h
+semtest.o: ..\Source\include\FreeRTOS.h
+semtest.o: C:\Keil\ARM\RV31\Inc\stddef.h
+semtest.o: ..\Source\include\projdefs.h
+semtest.o: .\FreeRTOSConfig.h
+semtest.o: C:\Keil\ARM\Inc\Philips\lpc23xx.h
+semtest.o: ..\Source\include\portable.h
+semtest.o: ..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h
+semtest.o: ..\Source\include\mpu_wrappers.h
+semtest.o: ..\Source\include\task.h
+semtest.o: ..\Source\include\list.h
+semtest.o: ..\Source\include\semphr.h
+semtest.o: ..\Source\include\queue.h
+semtest.o: ..\include\semtest.h

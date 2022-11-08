@@ -1,0 +1,4 @@
+"lpc2300.o" "main2.o" "C:\Keil\ARM\RV31\LIB\RTX_ARM_L.LIB" --device DARMP --strict --scatter "demo.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\demo.map" -o "demo.axf"

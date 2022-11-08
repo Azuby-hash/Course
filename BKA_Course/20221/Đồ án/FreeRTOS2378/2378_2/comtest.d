@@ -1,0 +1,15 @@
+comtest.o: ..\Minimal\comtest.c
+comtest.o: C:\Keil\ARM\RV31\INC\stdlib.h
+comtest.o: ..\Source\include\FreeRTOS.h
+comtest.o: C:\Keil\ARM\RV31\INC\stddef.h
+comtest.o: ..\Source\include\projdefs.h
+comtest.o: .\FreeRTOSConfig.h
+comtest.o: C:\Keil\ARM\INC\Philips\lpc23xx.h
+comtest.o: ..\Source\include\portable.h
+comtest.o: ..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h
+comtest.o: ..\Source\include\mpu_wrappers.h
+comtest.o: ..\Source\include\task.h
+comtest.o: ..\Source\include\list.h
+comtest.o: .\serial.h
+comtest.o: ..\include\comtest.h
+comtest.o: ..\include\partest.h

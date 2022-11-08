@@ -1,0 +1,10 @@
+partest.o: ParTest\ParTest.c
+partest.o: ..\Source\include\FreeRTOS.h
+partest.o: C:\Keil\ARM\RV31\INC\stddef.h
+partest.o: ..\Source\include\projdefs.h
+partest.o: .\FreeRTOSConfig.h
+partest.o: C:\Keil\ARM\INC\Philips\lpc23xx.h
+partest.o: ..\Source\include\portable.h
+partest.o: ..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h
+partest.o: ..\Source\include\mpu_wrappers.h
+partest.o: ..\include\partest.h

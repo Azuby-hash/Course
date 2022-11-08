@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "lpc2300.o" "partest.o" "main.o" "tasks.o" "list.o" "heap_2.o" "port.o" ".\portasm.o" "queue.o" "croutine.o" "semtest.o" "blockq.o" "dynamic.o" "flash.o" "pollq.o" C:\Keil\ARM\RV31\Lib\RTX_ARM_L.LIB --strict --scatter "demo.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\demo.map" -o demo.axf

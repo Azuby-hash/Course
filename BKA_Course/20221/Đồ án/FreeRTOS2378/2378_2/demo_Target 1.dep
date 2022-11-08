@@ -1,0 +1,8 @@
+Dependencies for Project 'demo', Target 'Target 1': (DO NOT MODIFY !)
+F (.\LPC2300.s)(0x4C133A6A)(--device DARMP --pd "__RTX SETA 1" -g --apcs=interwork -I..\Source\portable\RVDS\ARM7_LPC21xx -I "C:\Keil\ARM\INC\Philips" --list "LPC2300.lst" --xref -o "LPC2300.o")
+F (.\main2.c)(0x4C133739)(-c --device DARMP -D__RTX -g -O0 --apcs=interwork -I. -I..\include -I..\Source\include -I..\Source\portable\RVDS\ARM7_LPC21xx -I "C:\Keil\ARM\INC\Philips" -o "main2.o" --omf_browse "main2.crf" --depend "main2.d")
+I (C:\Keil\ARM\INC\Philips\lpc23xx.h)(0x46E6476A)
+I (lcd.h)(0x4BFE3788)
+I (serial.h)(0x4C132746)
+F (.\lcd.h)(0x4BFE3788)()
+F (.\serial.h)(0x4C132746)()

@@ -1,0 +1,14 @@
+flash.o: ..\Minimal\flash.c
+flash.o: C:\Keil\ARM\RV31\Inc\stdlib.h
+flash.o: ..\Source\include\FreeRTOS.h
+flash.o: C:\Keil\ARM\RV31\Inc\stddef.h
+flash.o: ..\Source\include\projdefs.h
+flash.o: .\FreeRTOSConfig.h
+flash.o: C:\Keil\ARM\Inc\Philips\lpc23xx.h
+flash.o: ..\Source\include\portable.h
+flash.o: ..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h
+flash.o: ..\Source\include\mpu_wrappers.h
+flash.o: ..\Source\include\task.h
+flash.o: ..\Source\include\list.h
+flash.o: ..\include\partest.h
+flash.o: ..\include\flash.h

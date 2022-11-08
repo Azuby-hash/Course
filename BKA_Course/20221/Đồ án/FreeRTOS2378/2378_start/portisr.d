@@ -1,0 +1,11 @@
+portisr.o: ..\Source\portable\GCC\ARM7_LPC23xx\portISR.c
+portisr.o: ..\Source\include\FreeRTOS.h
+portisr.o: C:\Keil\ARM\RV31\INC\stddef.h
+portisr.o: ..\Source\include\projdefs.h
+portisr.o: .\FreeRTOSConfig.h
+portisr.o: C:\Keil\ARM\INC\Philips\lpc23xx.h
+portisr.o: ..\Source\include\portable.h
+portisr.o: ..\Source\portable\GCC\ARM7_LPC23xx\portmacro.h
+portisr.o: ..\Source\include\mpu_wrappers.h
+portisr.o: ..\Source\include\task.h
+portisr.o: ..\Source\include\list.h

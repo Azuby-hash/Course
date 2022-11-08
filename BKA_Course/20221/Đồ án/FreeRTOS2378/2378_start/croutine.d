@@ -1,0 +1,12 @@
+croutine.o: ..\Source\croutine.c
+croutine.o: ..\Source\include\FreeRTOS.h
+croutine.o: C:\Keil\ARM\RV31\Inc\stddef.h
+croutine.o: ..\Source\include\projdefs.h
+croutine.o: .\FreeRTOSConfig.h
+croutine.o: C:\Keil\ARM\Inc\Philips\lpc23xx.h
+croutine.o: ..\Source\include\portable.h
+croutine.o: ..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h
+croutine.o: ..\Source\include\mpu_wrappers.h
+croutine.o: ..\Source\include\task.h
+croutine.o: ..\Source\include\list.h
+croutine.o: ..\Source\include\croutine.h

@@ -1,0 +1,11 @@
+list.o: ..\Source\list.c
+list.o: C:\Keil\ARM\RV31\Inc\stdlib.h
+list.o: ..\Source\include\FreeRTOS.h
+list.o: C:\Keil\ARM\RV31\Inc\stddef.h
+list.o: ..\Source\include\projdefs.h
+list.o: .\FreeRTOSConfig.h
+list.o: C:\Keil\ARM\Inc\Philips\lpc23xx.h
+list.o: ..\Source\include\portable.h
+list.o: ..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h
+list.o: ..\Source\include\mpu_wrappers.h
+list.o: ..\Source\include\list.h

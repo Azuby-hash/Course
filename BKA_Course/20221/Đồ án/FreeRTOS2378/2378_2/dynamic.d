@@ -1,0 +1,15 @@
+dynamic.o: ..\Minimal\dynamic.c
+dynamic.o: C:\Keil\ARM\RV31\INC\stdlib.h
+dynamic.o: ..\Source\include\FreeRTOS.h
+dynamic.o: C:\Keil\ARM\RV31\INC\stddef.h
+dynamic.o: ..\Source\include\projdefs.h
+dynamic.o: .\FreeRTOSConfig.h
+dynamic.o: C:\Keil\ARM\INC\Philips\lpc23xx.h
+dynamic.o: ..\Source\include\portable.h
+dynamic.o: ..\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h
+dynamic.o: ..\Source\include\mpu_wrappers.h
+dynamic.o: ..\Source\include\task.h
+dynamic.o: ..\Source\include\list.h
+dynamic.o: ..\Source\include\semphr.h
+dynamic.o: ..\Source\include\queue.h
+dynamic.o: ..\include\dynamic.h

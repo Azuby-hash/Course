@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'demo.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"lpc2300.o"'
+### List of Objects: adding '"main2.o"'
+### ADS-LD Command completed:
+"lpc2300.o" "main2.o" "C:\Keil\ARM\RV31\LIB\RTX_ARM_L.LIB" --device DARMP --strict --scatter "demo.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\demo.map" -o "demo.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'demo.axf'
+### ADS-LD Command File: 'demo.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'demo.lnp', Handle=0x000002B8
+### Writing '.lnp' file
+### ADS-LD Command file 'demo.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
