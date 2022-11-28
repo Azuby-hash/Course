@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.8)  27 NOV 2022 13:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.8)  28 NOV 2022 21:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Volumes/HDD 500GB/Downloads/Course/BKA_Course/20221/Tech/LeÌ‚ Thanh HaÌ‰i 20191813/AI.tex"
-(/Volumes/HDD 500GB/Downloads/Course/BKA_Course/20221/Tech/LeÌ‚ Thanh HaÌ‰i 20191813/AI.tex
+**"/Volumes/HDD 500GB/Downloads/Course/BKA_Course/20221/Tech/LeÌ‚ Thanh HaÌ‰i 20191813/document.tex"
+(/Volumes/HDD 500GB/Downloads/Course/BKA_Course/20221/Tech/LeÌ‚ Thanh HaÌ‰i 20191813/document.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (/usr/local/texlive/2022/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2022/02/08 v3.66 A class for typesetting presentations
@@ -891,16 +891,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count355
 \l__pdf_internal_box=\box82
-) (./AI.aux
+) (./document.aux
 LaTeX Font Info:    Trying to load font information for T5+cmss on input line 22.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/vntex/t5cmss.fd
 File: t5cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-
-LaTeX Warning: Label `tab:table-1' multiply defined.
-
-)
-\openout1 = `AI.aux'.
+))
+\openout1 = `document.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
 LaTeX Font Info:    ... okay on input line 90.
@@ -993,9 +989,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 90.
 LaTeX Info: Redefining \pageref on input line 90.
 LaTeX Info: Redefining \nameref on input line 90.
- (./AI.out) (./AI.out)
+ (./document.out) (./document.out)
 \@outlinefile=\write5
-\openout5 = `AI.out'.
+\openout5 = `document.out'.
 
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
@@ -1050,7 +1046,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- (./AI.nav)
+ (./document.nav)
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
 (Font)              using `T5/cmss/bx/n' instead on input line 96.
@@ -1069,51 +1065,51 @@ Overfull \vbox (47.30008pt too high) detected at line 96
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 128.
+(Font)              using `T5/cmss/bx/n' instead on input line 126.
 
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 128.
+(Font)              using `T5/cmss/bx/n' instead on input line 126.
 
 
 LaTeX Font Warning: Font shape `T5/cmss/m/it' in size <10.95> not available
-(Font)              Font shape `T5/cmss/m/sl' tried instead on input line 128.
+(Font)              Font shape `T5/cmss/m/sl' tried instead on input line 126.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 128.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 126.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 128.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 126.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+qbk on input line 128.
+LaTeX Font Info:    Trying to load font information for OT1+qbk on input line 126.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/tex-gyre/ot1qbk.fd
 File: ot1qbk.fd 2009/09/25 v1.2 font definition file for OT1/qbk
 )
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 128.
+(Font)              using `T5/cmss/bx/n' instead on input line 126.
 
 <Image/IoT_QR.png, id=42, 2107.875pt x 2107.875pt>
 File: Image/IoT_QR.png Graphic file (type png)
 <use Image/IoT_QR.png>
-Package pdftex.def Info: Image/IoT_QR.png  used on input line 128.
+Package pdftex.def Info: Image/IoT_QR.png  used on input line 126.
 (pdftex.def)             Requested size: 153.64493pt x 153.64523pt.
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 128.
+(Font)              using `T5/cmss/bx/n' instead on input line 126.
 
 
-Overfull \vbox (10.6063pt too high) detected at line 128
+Overfull \vbox (10.6063pt too high) detected at line 126
  []
 
 [2
 
- <./Image/IoT_QR.png>] (./AI.toc)
+ <./Image/IoT_QR.png>] (./document.toc)
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 135.
+(Font)              using `T5/cmss/bx/n' instead on input line 134.
 
 [3
 
@@ -1129,1086 +1125,404 @@ LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
 [4
 
 ]
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 154.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmss.fd
+File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 153.
+(Font)              using `T5/cmss/bx/n' instead on input line 154.
 
 [5
 
 ]
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 161.
+(Font)              using `T5/cmss/bx/n' instead on input line 156.
+
+
+LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
+(Font)              using `T5/cmss/bx/n' instead on input line 156.
 
 [6
 
 ]
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 163.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 163.
+(Font)              using `T5/cmss/bx/n' instead on input line 170.
 
 [7
 
 ]
-<Fig. 1 Zero-cross-detection method.PNG, id=90, 1248.16313pt x 268.00125pt>
-File: Fig. 1 Zero-cross-detection method.PNG Graphic file (type png)
-<use Fig. 1 Zero-cross-detection method.PNG>
-Package pdftex.def Info: Fig. 1 Zero-cross-detection method.PNG  used on input line 175.
-(pdftex.def)             Requested size: 307.28987pt x 65.9778pt.
+
+LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
+(Font)              using `T5/cmss/bx/n' instead on input line 173.
 
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 175.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 175.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/m/it' in size <10> not available
-(Font)              Font shape `T5/cmss/m/sl' tried instead on input line 175.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 175.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 175.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 175.
+(Font)              using `T5/cmss/bx/n' instead on input line 173.
 
 [8
 
- <./Fig. 1 Zero-cross-detection method.PNG>]
-<Fig. 2 Flowchart of zero-cross-detection method.png, id=102, 606.01407pt x 517.18219pt>
-File: Fig. 2 Flowchart of zero-cross-detection method.png Graphic file (type png)
-<use Fig. 2 Flowchart of zero-cross-detection method.png>
-Package pdftex.def Info: Fig. 2 Flowchart of zero-cross-detection method.png  used on input line 208.
-(pdftex.def)             Requested size: 153.64493pt x 131.11818pt.
-
+]
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 208.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 208.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 208.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 208.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 208.
+(Font)              using `T5/cmss/bx/n' instead on input line 190.
 
 [9
 
- <./Fig. 2 Flowchart of zero-cross-detection method.png>]
+]
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 219.
+(Font)              using `T5/cmss/bx/n' instead on input line 193.
+
+
+LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
+(Font)              using `T5/cmss/bx/n' instead on input line 193.
 
 [10
 
 ]
+<Image/Fig. 1 Structure.png, id=106, 487.8225pt x 284.06125pt>
+File: Image/Fig. 1 Structure.png Graphic file (type png)
+<use Image/Fig. 1 Structure.png>
+Package pdftex.def Info: Image/Fig. 1 Structure.png  used on input line 205.
+(pdftex.def)             Requested size: 307.28987pt x 178.93784pt.
+
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 222.
+(Font)              using `T5/cmss/bx/n' instead on input line 205.
 
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 222.
+(Font)              using `T5/cmss/bx/n' instead on input line 205.
+
+
+LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
+(Font)              using `T5/cmss/bx/n' instead on input line 205.
+
+
+LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
+(Font)              using `T5/cmss/bx/n' instead on input line 205.
+
+
+LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
+(Font)              using `T5/cmss/bx/n' instead on input line 205.
+
+
+LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
+(Font)              using `T5/cmss/bx/n' instead on input line 205.
+
+
+LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
+(Font)              using `T5/cmss/bx/n' instead on input line 205.
+
+
+Overfull \vbox (6.13263pt too high) detected at line 205
+ []
 
 [11
 
-]
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 241.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmss.fd
-File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
+ <./Image/Fig. 1 Structure.png>]
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 241.
+(Font)              using `T5/cmss/bx/n' instead on input line 228.
 
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 241.
-
-<Fig. 3 Virtual two-phase detector.PNG, id=121, 1222.5675pt x 422.32782pt>
-File: Fig. 3 Virtual two-phase detector.PNG Graphic file (type png)
-<use Fig. 3 Virtual two-phase detector.PNG>
-Package pdftex.def Info: Fig. 3 Virtual two-phase detector.PNG  used on input line 241.
-(pdftex.def)             Requested size: 307.28987pt x 106.14877pt.
-File: Fig. 3 Virtual two-phase detector.PNG Graphic file (type png)
-<use Fig. 3 Virtual two-phase detector.PNG>
-Package pdftex.def Info: Fig. 3 Virtual two-phase detector.PNG  used on input line 241.
-(pdftex.def)             Requested size: 307.28987pt x 106.14877pt.
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 241.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 241.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 241.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 241.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 241.
-
-
-Overfull \vbox (15.05199pt too high) detected at line 241
- []
+(Font)              using `T5/cmss/bx/n' instead on input line 228.
 
 [12
 
- <./Fig. 3 Virtual two-phase detector.PNG>]
+]
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 264.
+(Font)              using `T5/cmss/bx/n' instead on input line 258.
+
+<Image/Fig. 2 ESP8266.jpg, id=119, 1003.75pt x 1003.75pt>
+File: Image/Fig. 2 ESP8266.jpg Graphic file (type jpg)
+<use Image/Fig. 2 ESP8266.jpg>
+Package pdftex.def Info: Image/Fig. 2 ESP8266.jpg  used on input line 258.
+(pdftex.def)             Requested size: 184.3758pt x 184.37367pt.
+
+LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
+(Font)              using `T5/cmss/bx/n' instead on input line 258.
+
+
+LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
+(Font)              using `T5/cmss/bx/n' instead on input line 258.
+
+
+LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
+(Font)              using `T5/cmss/bx/n' instead on input line 258.
+
+
+LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
+(Font)              using `T5/cmss/bx/n' instead on input line 258.
+
+
+LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
+(Font)              using `T5/cmss/bx/n' instead on input line 258.
+
+
+LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
+(Font)              using `T5/cmss/bx/n' instead on input line 258.
+
+
+LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
+(Font)              using `T5/cmss/bx/n' instead on input line 258.
+
+
+Overfull \vbox (8.09346pt too high) detected at line 258
+ []
 
 [13
 
-]
-<Fig. 4 Method using memory table.png, id=138, 1209.76968pt x 516.42938pt>
-File: Fig. 4 Method using memory table.png Graphic file (type png)
-<use Fig. 4 Method using memory table.png>
-Package pdftex.def Info: Fig. 4 Method using memory table.png  used on input line 286.
-(pdftex.def)             Requested size: 215.10196pt x 91.81854pt.
+ <./Image/Fig. 2 ESP8266.jpg>]
+
+LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
+(Font)              using `T5/cmss/bx/n' instead on input line 301.
+
+<Image/Fig. 3 Diagram.png, id=126, 337.26pt x 456.70625pt>
+File: Image/Fig. 3 Diagram.png Graphic file (type png)
+<use Image/Fig. 3 Diagram.png>
+Package pdftex.def Info: Image/Fig. 3 Diagram.png  used on input line 301.
+(pdftex.def)             Requested size: 138.2795pt x 187.25774pt.
+
+LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
+(Font)              using `T5/cmss/bx/n' instead on input line 301.
 
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 286.
+(Font)              using `T5/cmss/bx/n' instead on input line 301.
 
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 286.
+(Font)              using `T5/cmss/bx/n' instead on input line 301.
 
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 286.
+(Font)              using `T5/cmss/bx/n' instead on input line 301.
 
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 286.
+(Font)              using `T5/cmss/bx/n' instead on input line 301.
 
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 286.
+(Font)              using `T5/cmss/bx/n' instead on input line 301.
 
 
-Overfull \vbox (35.07556pt too high) detected at line 286
+LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
+(Font)              using `T5/cmss/bx/n' instead on input line 301.
+
+
+Overfull \vbox (10.97752pt too high) detected at line 301
  []
 
 [14
 
- <./Fig. 4 Method using memory table.png>]
-<Fig. 5 Method using estimated phase angle and amplitude.PNG, id=149, 919.93687pt x 526.96875pt>
-File: Fig. 5 Method using estimated phase angle and amplitude.PNG Graphic file (type png)
-<use Fig. 5 Method using estimated phase angle and amplitude.PNG>
-Package pdftex.def Info: Fig. 5 Method using estimated phase angle and amplitude.PNG  used on input line 302.
-(pdftex.def)             Requested size: 184.3758pt x 105.61702pt.
+ <./Image/Fig. 3 Diagram.png>]
+<Image/Fig. 4 Circuit.png, id=133, 519.9425pt x 404.51125pt>
+File: Image/Fig. 4 Circuit.png Graphic file (type png)
+<use Image/Fig. 4 Circuit.png>
+Package pdftex.def Info: Image/Fig. 4 Circuit.png  used on input line 313.
+(pdftex.def)             Requested size: 245.83282pt x 191.25601pt.
 
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 302.
+(Font)              using `T5/cmss/bx/n' instead on input line 313.
 
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 302.
+(Font)              using `T5/cmss/bx/n' instead on input line 313.
 
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 302.
+(Font)              using `T5/cmss/bx/n' instead on input line 313.
 
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 302.
+(Font)              using `T5/cmss/bx/n' instead on input line 313.
 
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 302.
+(Font)              using `T5/cmss/bx/n' instead on input line 313.
 
 
-Overfull \vbox (24.22899pt too high) detected at line 302
+LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
+(Font)              using `T5/cmss/bx/n' instead on input line 313.
+
+
+LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
+(Font)              using `T5/cmss/bx/n' instead on input line 313.
+
+
+Overfull \vbox (18.4508pt too high) detected at line 313
  []
 
 [15
 
- <./Fig. 5 Method using estimated phase angle and amplitude.PNG>]
-<Fig. 6 Method using second-order low-pass filter.PNG, id=157, 1206.75844pt x 532.23843pt>
-File: Fig. 6 Method using second-order low-pass filter.PNG Graphic file (type png)
-<use Fig. 6 Method using second-order low-pass filter.PNG>
-Package pdftex.def Info: Fig. 6 Method using second-order low-pass filter.PNG  used on input line 327.
-(pdftex.def)             Requested size: 215.10196pt x 94.86482pt.
+ <./Image/Fig. 4 Circuit.png>]
+<Image/Fig. 5 Adafruit UI.png, id=140, 520.94624pt x 355.3275pt>
+File: Image/Fig. 5 Adafruit UI.png Graphic file (type png)
+<use Image/Fig. 5 Adafruit UI.png>
+Package pdftex.def Info: Image/Fig. 5 Adafruit UI.png  used on input line 325.
+(pdftex.def)             Requested size: 276.559pt x 188.63713pt.
 
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 327.
+(Font)              using `T5/cmss/bx/n' instead on input line 325.
 
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 327.
+(Font)              using `T5/cmss/bx/n' instead on input line 325.
 
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 327.
+(Font)              using `T5/cmss/bx/n' instead on input line 325.
 
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 327.
+(Font)              using `T5/cmss/bx/n' instead on input line 325.
 
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 327.
+(Font)              using `T5/cmss/bx/n' instead on input line 325.
 
 
-Overfull \vbox (19.04102pt too high) detected at line 327
+LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
+(Font)              using `T5/cmss/bx/n' instead on input line 325.
+
+
+LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
+(Font)              using `T5/cmss/bx/n' instead on input line 325.
+
+
+Overfull \vbox (15.83192pt too high) detected at line 325
  []
 
 [16
 
- <./Fig. 6 Method using second-order low-pass filter.PNG>]
-<Fig. 7 Method using first-order low-pass filter.PNG, id=166, 1209.76968pt x 532.99126pt>
-File: Fig. 7 Method using first-order low-pass filter.PNG Graphic file (type png)
-<use Fig. 7 Method using first-order low-pass filter.PNG>
-Package pdftex.def Info: Fig. 7 Method using first-order low-pass filter.PNG  used on input line 345.
-(pdftex.def)             Requested size: 215.10196pt x 94.76317pt.
+ <./Image/Fig. 5 Adafruit UI.png>]
+<Image/Fig. 6 Items.png, id=147, 517.935pt x 345.29pt>
+File: Image/Fig. 6 Items.png Graphic file (type png)
+<use Image/Fig. 6 Items.png>
+Package pdftex.def Info: Image/Fig. 6 Items.png  used on input line 337.
+(pdftex.def)             Requested size: 276.559pt x 184.37794pt.
 
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 345.
+(Font)              using `T5/cmss/bx/n' instead on input line 337.
 
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 345.
+(Font)              using `T5/cmss/bx/n' instead on input line 337.
 
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 345.
+(Font)              using `T5/cmss/bx/n' instead on input line 337.
 
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 345.
+(Font)              using `T5/cmss/bx/n' instead on input line 337.
 
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 345.
+(Font)              using `T5/cmss/bx/n' instead on input line 337.
 
 
-Overfull \vbox (32.44441pt too high) detected at line 345
+LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
+(Font)              using `T5/cmss/bx/n' instead on input line 337.
+
+
+LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
+(Font)              using `T5/cmss/bx/n' instead on input line 337.
+
+
+Overfull \vbox (11.57274pt too high) detected at line 337
  []
 
 [17
 
- <./Fig. 7 Method using first-order low-pass filter.PNG>]
-<Fig. 8 Method using all-pass filter.PNG, id=175, 1193.96063pt x 688.82344pt>
-File: Fig. 8 Method using all-pass filter.PNG Graphic file (type png)
-<use Fig. 8 Method using all-pass filter.PNG>
-Package pdftex.def Info: Fig. 8 Method using all-pass filter.PNG  used on input line 369.
-(pdftex.def)             Requested size: 215.10196pt x 124.08797pt.
+ <./Image/Fig. 6 Items.png>]
+
+LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
+(Font)              using `T5/cmss/bx/n' instead on input line 353.
 
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 369.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 369.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 369.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 369.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 369.
-
-
-Overfull \vbox (7.56587pt too high) detected at line 369
- []
+(Font)              using `T5/cmss/bx/n' instead on input line 353.
 
 [18
 
- <./Fig. 8 Method using all-pass filter.PNG>]
-File: Fig. 3 Virtual two-phase detector.PNG Graphic file (type png)
-<use Fig. 3 Virtual two-phase detector.PNG>
-Package pdftex.def Info: Fig. 3 Virtual two-phase detector.PNG  used on input line 395.
-(pdftex.def)             Requested size: 307.28987pt x 106.14877pt.
+]
+
+LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
+(Font)              using `T5/cmss/bx/n' instead on input line 357.
 
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 395.
+(Font)              using `T5/cmss/bx/n' instead on input line 357.
 
 [19
 
 ]
-<Fig. 9 Method using arctangent function.PNG, id=190, 1218.05063pt x 445.665pt>
-File: Fig. 9 Method using arctangent function.PNG Graphic file (type png)
-<use Fig. 9 Method using arctangent function.PNG>
-Package pdftex.def Info: Fig. 9 Method using arctangent function.PNG  used on input line 410.
-(pdftex.def)             Requested size: 307.28987pt x 112.42921pt.
-
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 410.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 410.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 410.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 410.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 410.
-
-
-Overfull \vbox (18.78796pt too high) detected at line 410
- []
+(Font)              using `T5/cmss/bx/n' instead on input line 370.
 
 [20
 
- <./Fig. 9 Method using arctangent function.PNG>]
-<Fig. 10 Method using synchronous frame.PNG, id=198, 1187.18532pt x 447.92343pt>
-File: Fig. 10 Method using synchronous frame.PNG Graphic file (type png)
-<use Fig. 10 Method using synchronous frame.PNG>
-Package pdftex.def Info: Fig. 10 Method using synchronous frame.PNG  used on input line 442.
-(pdftex.def)             Requested size: 276.559pt x 104.34616pt.
+]
+
+LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
+(Font)              using `T5/cmss/bx/n' instead on input line 404.
 
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 442.
+(Font)              using `T5/cmss/bx/n' instead on input line 404.
 
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 442.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 442.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 442.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 442.
+(Font)              using `T5/cmss/bx/n' instead on input line 404.
 
 [21
 
- <./Fig. 10 Method using synchronous frame.PNG>]
-<Fig. 11 Overall configuration.PNG, id=206, 1181.16281pt x 286.06876pt>
-File: Fig. 11 Overall configuration.PNG Graphic file (type png)
-<use Fig. 11 Overall configuration.PNG>
-Package pdftex.def Info: Fig. 11 Overall configuration.PNG  used on input line 470.
-(pdftex.def)             Requested size: 307.28987pt x 74.41977pt.
-
+]
 
 LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 470.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 470.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 470.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 470.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 470.
-
-
-Overfull \vbox (37.38307pt too high) detected at line 470
- []
+(Font)              using `T5/cmss/bx/n' instead on input line 412.
 
 [22
 
- <./Fig. 11 Overall configuration.PNG>]
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 475.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 475.
-
-[23
-
-]
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 487.
-
-
-Overfull \vbox (17.958pt too high) detected at line 487
- []
-
-[24
-
-]
-Overfull \hbox (4.03477pt too wide) in paragraph at lines 513--513
- [] 
- []
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 513.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 513.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 513.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 513.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 513.
-
-
-Overfull \vbox (33.08353pt too high) detected at line 513
- []
-
-[25
-
-]
-<fig12a.png, id=231, 633.86812pt x 543.53062pt>
-File: fig12a.png Graphic file (type png)
-<use fig12a.png>
-Package pdftex.def Info: fig12a.png  used on input line 530.
-(pdftex.def)             Requested size: 153.64493pt x 131.7438pt.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 530.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 530.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 530.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 530.
-
-<fig12b.png, id=232, 633.86812pt x 542.77782pt>
-File: fig12b.png Graphic file (type png)
-<use fig12b.png>
-Package pdftex.def Info: fig12b.png  used on input line 530.
-(pdftex.def)             Requested size: 153.64493pt x 131.56134pt.
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 530.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 530.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 530.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 530.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 530.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 530.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 530.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 530.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 530.
-
-[26
-
- <./fig12a.png> <./fig12b.png>]
-<fig12c.png, id=241, 637.63219pt x 540.51938pt>
-File: fig12c.png Graphic file (type png)
-<use fig12c.png>
-Package pdftex.def Info: fig12c.png  used on input line 547.
-(pdftex.def)             Requested size: 153.64493pt x 130.23865pt.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 547.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 547.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 547.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 547.
-
-<fig12d.png, id=242, 639.13782pt x 536.0025pt>
-File: fig12d.png Graphic file (type png)
-<use fig12d.png>
-Package pdftex.def Info: fig12d.png  used on input line 547.
-(pdftex.def)             Requested size: 153.64493pt x 128.84769pt.
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 547.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 547.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 547.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 547.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 547.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 547.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 547.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 547.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 547.
-
-[27
-
- <./fig12c.png> <./fig12d.png>]
-<fig12e.png, id=250, 630.85687pt x 546.54187pt>
-File: fig12e.png Graphic file (type png)
-<use fig12e.png>
-Package pdftex.def Info: fig12e.png  used on input line 564.
-(pdftex.def)             Requested size: 153.64493pt x 133.1075pt.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 564.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 564.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 564.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 564.
-
-<fig12f.png, id=251, 635.37375pt x 539.76656pt>
-File: fig12f.png Graphic file (type png)
-<use fig12f.png>
-Package pdftex.def Info: fig12f.png  used on input line 564.
-(pdftex.def)             Requested size: 153.64493pt x 130.52672pt.
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 564.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 564.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 564.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 564.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 564.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 564.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 564.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 564.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 564.
-
-[28
-
- <./fig12e.png> <./fig12f.png>]
-<fig12h.png, id=259, 639.13782pt x 517.935pt>
-File: fig12h.png Graphic file (type png)
-<use fig12h.png>
-Package pdftex.def Info: fig12h.png  used on input line 581.
-(pdftex.def)             Requested size: 153.64493pt x 124.5045pt.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 581.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 581.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 581.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 581.
-
-File: fig12h.png Graphic file (type png)
-<use fig12h.png>
-Package pdftex.def Info: fig12h.png  used on input line 581.
-(pdftex.def)             Requested size: 153.64493pt x 124.5045pt.
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 581.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 581.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 581.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 581.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 581.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 581.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 581.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 581.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 581.
-
-[29
-
- <./fig12h.png>]
-<fig12i.png, id=266, 633.11531pt x 514.92375pt>
-File: fig12i.png Graphic file (type png)
-<use fig12i.png>
-Package pdftex.def Info: fig12i.png  used on input line 598.
-(pdftex.def)             Requested size: 153.64493pt x 124.95921pt.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 598.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 598.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 598.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 598.
-
-<fig12j.png, id=267, 639.89063pt x 523.20468pt>
-File: fig12j.png Graphic file (type png)
-<use fig12j.png>
-Package pdftex.def Info: fig12j.png  used on input line 598.
-(pdftex.def)             Requested size: 153.64493pt x 125.62756pt.
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 598.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 598.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 598.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 598.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 598.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 598.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 598.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 598.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 598.
-
-[30
-
- <./fig12i.png> <./fig12j.png>]
-Overfull \hbox (24.40724pt too wide) in paragraph at lines 615--615
- [] 
- []
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 615.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 615.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 615.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 615.
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{tab:table-1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.615 \end{frame}
-                 
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 615.
-
-[31
-
-]
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 631.
-
-
-Overfull \vbox (7.1727pt too high) detected at line 631
- []
-
-[32
-
-]
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 647.
-
-
-Overfull \vbox (7.79308pt too high) detected at line 647
- []
-
-[33
-
-]
-<Fig. 13 Estimated characteristics under steady state.PNG, id=291, 950.80219pt x 591.71063pt>
-File: Fig. 13 Estimated characteristics under steady state.PNG Graphic file (type png)
-<use Fig. 13 Estimated characteristics under steady state.PNG>
-Package pdftex.def Info: Fig. 13 Estimated characteristics under steady state.PNG  used on input line 663.
-(pdftex.def)             Requested size: 153.64493pt x 95.61462pt.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 663.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 663.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 663.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 663.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 663.
-
-
-Overfull \vbox (35.41806pt too high) detected at line 663
- []
-
-[34
-
- <./Fig. 13 Estimated characteristics under steady state.PNG>]
-Underfull \hbox (badness 1199) in paragraph at lines 686--686
-\T5/cmss/m/n/10.95 cho c¡c h» thèng PV nhä l 
- []
-
-<Fig. 14 Estimation characteristics with voltage drop.PNG, id=298, 700.11563pt x 640.64343pt>
-File: Fig. 14 Estimation characteristics with voltage drop.PNG Graphic file (type png)
-<use Fig. 14 Estimation characteristics with voltage drop.PNG>
-Package pdftex.def Info: Fig. 14 Estimation characteristics with voltage drop.PNG  used on input line 686.
-(pdftex.def)             Requested size: 153.64493pt x 140.59007pt.
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 686.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 686.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 686.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 686.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 686.
-
-[35
-
- <./Fig. 14 Estimation characteristics with voltage drop.PNG>]
-<fig15a.png, id=305, 708.39656pt x 797.22844pt>
-File: fig15a.png Graphic file (type png)
-<use fig15a.png>
-Package pdftex.def Info: fig15a.png  used on input line 704.
-(pdftex.def)             Requested size: 138.2795pt x 155.61098pt.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 704.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 704.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 704.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 704.
-
-<fig15b.png, id=306, 703.12688pt x 804.00375pt>
-File: fig15b.png Graphic file (type png)
-<use fig15b.png>
-Package pdftex.def Info: fig15b.png  used on input line 704.
-(pdftex.def)             Requested size: 138.2795pt x 158.11119pt.
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 704.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 704.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 704.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 704.
-
-
-Overfull \hbox (2.43272pt too wide) in paragraph at lines 704--704
- []|  [] 
- []
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 704.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 704.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 704.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 704.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 704.
-
-
-Overfull \vbox (32.28629pt too high) detected at line 704
- []
-
-[36
-
- <./fig15a.png> <./fig15b.png>]
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 713.
-
-[37
-
-]
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 717.
-
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 717.
-
-[38
-
-]
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 730.
-
-
-Overfull \vbox (17.958pt too high) detected at line 730
- []
-
-[39
-
-]
-
-LaTeX Font Warning: Font shape `T5/cmss/b/n' undefined
-(Font)              using `T5/cmss/bx/n' instead on input line 737.
-
-[40
-
 ]
 \tf@nav=\write6
-\openout6 = `AI.nav'.
+\openout6 = `document.nav'.
 
 \tf@toc=\write7
-\openout7 = `AI.toc'.
+\openout7 = `document.toc'.
 
 \tf@snm=\write8
-\openout8 = `AI.snm'.
+\openout8 = `document.snm'.
 
- (./AI.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package rerunfilecheck Info: File `AI.out' has not changed.
-(rerunfilecheck)             Checksum: 7A0F816B5089013BCD4E468DE7897237;801.
+ (./document.aux)
+Package rerunfilecheck Info: File `document.out' has not changed.
+(rerunfilecheck)             Checksum: 97B8806FA49C2DF6C11EF248908AAFD0;630.
  ) 
 Here is how much of TeX's memory you used:
- 28930 strings out of 478268
- 588822 string characters out of 5846347
- 817707 words of memory out of 5000000
- 46427 multiletter control sequences out of 15000+600000
- 509053 words of font info for 71 fonts, out of 8000000 for 9000
+ 28627 strings out of 478268
+ 580157 string characters out of 5846347
+ 813560 words of memory out of 5000000
+ 46182 multiletter control sequences out of 15000+600000
+ 506167 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,18n,122p,1911b,882s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{fig:B\353\040D\341\0402\040pha\040\243o} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{fig:L\\T5\\uhorn\040u\040\\T5\\dj\040\347\040ph\\T5\\uhorn\040\\T5\\ohorn\040ng\040ph\241p\040b\255t\040\\T5\\dj\040i\272m\040qua\040kh\346ng} has been referenced but does not exist, replaced by a fixed one
-
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qbkr.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/tex-gyre/qbkri.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/vntex/vnr/vnss10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/vntex/vnr/vnss12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/vntex/vnr/vnss8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/vntex/vnr/vnss9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/vntex/vnr/vnssbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/vntex/vnr/vnssi10.pfb>
-Output written on AI.pdf (40 pages, 1639823 bytes).
+ 128i,13n,122p,1917b,834s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/vntex/vnr/vnss10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/vntex/vnr/vnss12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/vntex/vnr/vnss8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/vntex/vnr/vnssbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/vntex/vnr/vnssi10.pfb>
+Output written on document.pdf (22 pages, 1287948 bytes).
 PDF statistics:
- 422 PDF objects out of 1000 (max. 8388607)
- 293 compressed objects within 3 object streams
- 101 named destinations out of 1000 (max. 500000)
- 208 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 224 PDF objects out of 1000 (max. 8388607)
+ 167 compressed objects within 2 object streams
+ 54 named destinations out of 1000 (max. 500000)
+ 118 words of extra memory for PDF output out of 10000 (max. 10000000)
 

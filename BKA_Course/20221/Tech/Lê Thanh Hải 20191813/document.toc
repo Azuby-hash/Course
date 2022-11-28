@@ -1,0 +1,6 @@
+\babel@toc {vietnamese}{}\relax 
+\beamer@sectionintoc {1}{1 Giới thiệu}{4}{0}{1}
+\beamer@sectionintoc {2}{2 Vấn đề đặt ra}{6}{0}{2}
+\beamer@sectionintoc {3}{3 Ý tưởng}{8}{0}{3}
+\beamer@sectionintoc {4}{4 Cấu trúc hệ thống}{10}{0}{4}
+\beamer@sectionintoc {5}{5 Kết luận}{19}{0}{5}
